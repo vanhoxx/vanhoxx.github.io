@@ -26,6 +26,7 @@ html, body {
     background-size:cover;
     overflow: hidden;
     float: left;
+    margin: center;
 }
 .profile-text {
     font-family:"FiraCode Nerd Font", monospace;
@@ -79,4 +80,10 @@ html, body {
 .table-link-p {
     color: white;
     text-decoration: none;
+}
+:root {
+    --darkreader-neutral-background: rgb(61, 59, 59);
+    --darkreader-neutral-text: #bcb8b4;
+    --darkreader-selection-background: #0d4b96;
+    --darkreader-selection-text: #c9c7c5;
 }
