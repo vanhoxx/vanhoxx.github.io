@@ -8,18 +8,34 @@ html, body {
     font-size: 1.4em;
     color: white;
     margin-top: 1vw;
-    margin-left: 1vw;
     width: 50%;
     text-align: center;
+    margin-left: 25%;
+}
+.profile-pic-text {
+    padding: 5px;
+    margin-top: 1em;
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+    display: flex;
+
 }
 .profile-pic {
-    position: relative;
-    width: 25%;
-    height: 15%;
-    border: 1px transparent;
+    width: 45%;
+    height: 35%; 
+    border: 1px solid;
     border-radius: 10px;
     background-size:cover;
     overflow: hidden;
-    margin-left: 60vw;
-    justify-content: space-around;
+    float: left;
+}
+.profile-text {
+    font-family:"FiraCode Nerd Font", monospace;
+    font-size: 100%;
+    text-align: center;
+    width: 50%;
+    color: white;
+    float: left;
+    left: 0;
 }
