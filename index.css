@@ -1,21 +1,30 @@
-html, body {
-    background-color: rgb(43, 41, 41);
-    max-width: 100%;
-    overflow-x: hidden;
+:root {
+    --darkreader-neutral-background: rgb(61, 59, 59);
+    --darkreader-neutral-text: #bcb8b4;
+    --darkreader-selection-background: #0d4b96;
+    --darkreader-selection-text: #c9c7c5;
 }
+html, body {
+    background-color: rgba(43, 41, 41);
+    overflow-x: hidden;
+    position: relative;
+
+}
+
 .profile-hero-title {
     font-family:"FiraCode Nerd Font", monospace;
     font-size: 1.4em;
     color: white;
     margin-top: 1vw;
     width: 80%;
-    text-align: center;
+    margin-left: 2em;
 }
 .profile-pic-text {
     margin-top: 1em;
     width: auto;
     height: auto;
     display: flex;
+    max-width: 85%;
 
 }
 .profile-pic {
@@ -46,12 +55,13 @@ html, body {
     width: auto;
     height: auto;
     display: flex; 
+    position: relative;
 }
 .table-title {
     font-family:"FiraCode Nerd Font", monospace;
     font-size: 90%;
     color: white;
-    margin-left: 10%;
+    margin-left: 3%;
     border-radius: 10px;
     background-color: rgb(61, 59, 59);
     padding: 5px;
@@ -81,9 +91,15 @@ html, body {
     color: white;
     text-decoration: none;
 }
-:root {
-    --darkreader-neutral-background: rgb(61, 59, 59);
-    --darkreader-neutral-text: #bcb8b4;
-    --darkreader-selection-background: #0d4b96;
-    --darkreader-selection-text: #c9c7c5;
+.table-op {
+    color: rgb(255, 208, 0);
+    text-decoration: none;
+}
+.table-na {
+    color: orange;
+    text-decoration: none;
+}
+.table-be {
+    color: rgb(189, 189, 189);
+    text-decoration: none;
 }
