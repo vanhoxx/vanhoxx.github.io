@@ -6,100 +6,30 @@
 }
 html, body {
     background-color: rgba(43, 41, 41);
-    overflow-x: hidden;
-    position: relative;
-
 }
 
 .profile-hero-title {
     font-family:"FiraCode Nerd Font", monospace;
     font-size: 1.4em;
     color: white;
-    margin-top: 1vw;
-    width: 80%;
-    margin-left: 2em;
-}
-.profile-pic-text {
-    margin-top: 1em;
-    width: auto;
-    height: auto;
-    display: flex;
-    max-width: 85%;
-
-}
-.profile-pic {
-    max-width: 200px;
-    width: 45%;
-    height: 35%; 
-    border-radius: 10px;
-    background-size:cover;
-    overflow: hidden;
-    float: left;
-    margin: center;
-}
-.profile-text {
-    font-family:"FiraCode Nerd Font", monospace;
-    font-size: 100%;
     text-align: center;
-    width: 40%;
-    color: white;
-    float: left;
-    left: 0;
-    margin-left: 1em;
-    padding: 10px;
-    background-color: rgb(61, 59, 59);
-    border-radius: 10px;
 }
-.page-content {
-    margin-top: 1em;
-    width: auto;
-    height: auto;
-    display: flex; 
-    position: relative;
-}
-.table-title {
-    font-family:"FiraCode Nerd Font", monospace;
-    font-size: 90%;
-    color: white;
-    margin-left: 3%;
-    border-radius: 10px;
-    background-color: rgb(61, 59, 59);
-    padding: 5px;
+main {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: auto;
+    background-color: rgb(29, 29, 29);
+    padding: 3%;
+    max-width: 1000px;
+    border-radius: 20px;
 }
 
-.table-link-r {
-    color: orange;
-    text-decoration: none;
-}
-.table-link-g {
-    color: rgb(197, 0, 197);
-    text-decoration: none;
-}
-.table-link-l {
-    color: rgb(231, 231, 59);
-    text-decoration: none;
-}
-.table-link-f {
-    color: rgb(252, 115, 3);
-    text-decoration: none;
-}
-.table-link-u {
-    color: red;
-    text-decoration: none;
-}
-.table-link-p {
-    color: white;
-    text-decoration: none;
-}
-.table-op {
-    color: rgb(255, 208, 0);
-    text-decoration: none;
-}
-.table-na {
-    color: orange;
-    text-decoration: none;
-}
-.table-be {
-    color: rgb(189, 189, 189);
-    text-decoration: none;
+.profile-img-obj {
+    display: block;
+    max-height: 100px;
+    float: right;
+    padding: 5%;
+    margin: auto;
 }
